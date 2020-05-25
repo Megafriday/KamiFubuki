@@ -44,7 +44,7 @@ class Kami {
 		this.div.style.transform
 			= `rotate3d(${this.rotateX}, ${this.rotateY}, ${this.rotateZ}, ${this.angle}deg)`;
 
-		// ゆらぎ
+		// 位置
 		this.x += this.vx;
 		this.y += this.vy;
 		this.div.style.left = `${this.x}px`;
