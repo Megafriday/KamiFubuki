@@ -1,5 +1,5 @@
-let screenWidh = window.innerWidth;
-let screenHeight = window.innerHeight;
+const screenWidh = window.innerWidth;
+const screenHeight = window.innerHeight;
 
 class Kami {
 	constructor() {
@@ -35,7 +35,7 @@ class Kami {
 	}
 
 	rand(min, max) {
-		return Math.floor(Math.random() * (max - min + 1) + min);
+		return Math.floor(Math.random() * (max - min + 1)) + min;
 	}
 
 	update() {
